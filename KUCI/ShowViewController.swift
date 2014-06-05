@@ -71,8 +71,10 @@ class ShowViewController : UIViewController, UITableViewDataSource, UITableViewD
             return cell
         } else {
             var cell = tableView.dequeueReusableCellWithIdentifier("showDescriptionCell", forIndexPath: indexPath) as ShowDescriptionTableViewCell
-            cell.textView.text = show?.information
-            cell.textView.font = UIFont.applicationFont(15.0)
+            cell.descriptionLabel.text = show?.information
+            
+            cell.setNeedsLayout()
+            cell.layoutIfNeeded()
             
             return cell
         }
@@ -93,5 +95,28 @@ class ShowViewController : UIViewController, UITableViewDataSource, UITableViewD
         view.addSubview(label)
         
         return view;
+    }
+    
+    var showDescriptionTableViewMetricsCell: ShowDescriptionTableViewCell?
+    
+    func tableView(tableView: UITableView!, heightForRowAtIndexPath indexPath: NSIndexPath!) -> CGFloat {
+        if (indexPath.section == 0) {
+            return tableView.rowHeight
+        }
+        
+        if showDescriptionTableViewMetricsCell == nil {
+            showDescriptionTableViewMetricsCell = tableView.dequeueReusableCellWithIdentifier("showDescriptionCell") as? ShowDescriptionTableViewCell
+        }
+        
+        showDescriptionTableViewMetricsCell!.bounds = CGRect(x: 0.0, y: 0.0, width: tableView.bounds.size.width, height: 9999.0)
+        showDescriptionTableViewMetricsCell!.descriptionLabel.text = show?.information
+
+        showDescriptionTableViewMetricsCell!.setNeedsLayout()
+        showDescriptionTableViewMetricsCell!.layoutIfNeeded()
+        
+        var height = showDescriptionTableViewMetricsCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height
+        
+        // Add 1 to the height to account for the row separator
+        return max(height + 1.0, tableView.rowHeight)
     }
 }

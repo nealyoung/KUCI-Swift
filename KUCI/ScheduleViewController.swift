@@ -108,6 +108,13 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
         cell.titleLabel.text = show.title
         cell.hostLabel.text = show.host
         cell.timeLabel.text = show.time
+        
+        cell.setNeedsLayout()
+        cell.layoutIfNeeded()
+        
+        cell.setNeedsLayout()
+        cell.layoutIfNeeded()
+        
         return cell;
     }
     
@@ -134,7 +141,7 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
         if showTableViewMetricsCell == nil {
             showTableViewMetricsCell = tableView.dequeueReusableCellWithIdentifier("showCell") as? ShowTableViewCell
         }
-        
+
         showTableViewMetricsCell!.bounds = CGRect(x: 0.0, y: 0.0, width: tableView.bounds.size.width, height: 9999.0)
         
         var show = schedule[indexPath.section][indexPath.row]
@@ -146,7 +153,9 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
         showTableViewMetricsCell!.layoutIfNeeded()
         
         var height = showTableViewMetricsCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height
-        println(height)
-        return height
+        println(tableView.rowHeight)
+        
+        // Add 1 to the height to account for the row separator
+        return height + 1.0
     }
 }

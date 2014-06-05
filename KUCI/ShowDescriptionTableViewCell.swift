@@ -9,10 +9,18 @@
 import UIKit
 
 class ShowDescriptionTableViewCell : UITableViewCell {
-    @IBOutlet var textView: UITextView
+    @IBOutlet var descriptionLabel: UILabel
     
-    init(style: UITableViewCellStyle, reuseIdentifier: String!)  {
-        textView.textColor = UIColor.redColor()
-        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    override func awakeFromNib() {
+        descriptionLabel.font = UIFont.applicationFont(16.0)
+    }
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        
+        // Set the max layout width of the multi-line labels to their calculated width after auto layout has run
+        descriptionLabel.preferredMaxLayoutWidth = descriptionLabel.frame.width
+        
+        self.layoutIfNeeded()
     }
 }
