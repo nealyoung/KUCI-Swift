@@ -153,7 +153,6 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
         showTableViewMetricsCell!.layoutIfNeeded()
         
         var height = showTableViewMetricsCell!.contentView.systemLayoutSizeFittingSize(UILayoutFittingCompressedSize).height
-        println(tableView.rowHeight)
         
         // Add 1 to the height to account for the row separator
         return height + 1.0

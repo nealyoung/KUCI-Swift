@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E0095B6193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0095B5193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift */; };
+		0E0095BB1940261300FE334E /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0095BA1940261300FE334E /* StreamViewController.swift */; };
 		0EEA7DED193F8FDB00CAED5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA7DEC193F8FDB00CAED5D /* Images.xcassets */; };
 		0EEA7DF9193F8FDB00CAED5D /* KUCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7DF8193F8FDB00CAED5D /* KUCITests.swift */; };
 		0EEA7E06193F900000CAED5D /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E03193F900000CAED5D /* HTMLNode.m */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0E0095B5193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		0E0095BA1940261300FE334E /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		0EEA7DE0193F8FDB00CAED5D /* KUCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KUCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEA7DE4193F8FDB00CAED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EEA7DEC193F8FDB00CAED5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -203,8 +205,9 @@
 		0EEA7E1E193F90BC00CAED5D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0EEA7E1F193F90CA00CAED5D /* ShowViewController.swift */,
 				0EEA7E0C193F903400CAED5D /* ScheduleViewController.swift */,
+				0EEA7E1F193F90CA00CAED5D /* ShowViewController.swift */,
+				0E0095BA1940261300FE334E /* StreamViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			files = (
 				0EEA7E16193F906000CAED5D /* UIFont.swift in Sources */,
 				0EEA7E20193F90CA00CAED5D /* ShowViewController.swift in Sources */,
+				0E0095BB1940261300FE334E /* StreamViewController.swift in Sources */,
 				0EEA7E1D193F90B200CAED5D /* ScheduleParser.m in Sources */,
 				0EEA7E29193F924E00CAED5D /* AppDelegate.swift in Sources */,
 				0EEA7E0D193F903400CAED5D /* ScheduleViewController.swift in Sources */,

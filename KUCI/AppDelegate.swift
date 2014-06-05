@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().titleTextAttributes = navigationBarTitleTextAttributes
         
         var barButtonItemTitleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor(),
-                                                NSFontAttributeName: UIFont.semiboldApplicationFont(17.0)]
+                                                NSFontAttributeName: UIFont.applicationFont(17.0)]
         UIBarButtonItem.appearance().setTitleTextAttributes(barButtonItemTitleTextAttributes, forState: UIControlState.Normal)
     }
 }

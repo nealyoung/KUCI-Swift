@@ -11,10 +11,6 @@ import UIKit
 class ShowDescriptionTableViewCell : UITableViewCell {
     @IBOutlet var descriptionLabel: UILabel
     
-    override func awakeFromNib() {
-        descriptionLabel.font = UIFont.applicationFont(16.0)
-    }
-    
     override func layoutSubviews() {
         super.layoutSubviews()
         

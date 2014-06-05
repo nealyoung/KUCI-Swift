@@ -53,8 +53,6 @@ class ShowViewController : UIViewController, UITableViewDataSource, UITableViewD
     func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
         if (indexPath.section == 0) {
             var cell = tableView.dequeueReusableCellWithIdentifier("infoCell", forIndexPath: indexPath) as UITableViewCell
-            cell.textLabel.font = UIFont.semiboldApplicationFont(16.0)
-            cell.detailTextLabel.font = UIFont.semiboldApplicationFont(16.0)
             
             switch(indexPath.row) {
             case 0:
