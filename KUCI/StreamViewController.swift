@@ -8,6 +8,7 @@
 
 import AVFoundation
 import MediaPlayer
+import QuartzCore
 import UIKit
 
 class StreamViewController : UIViewController {
@@ -39,7 +40,7 @@ class StreamViewController : UIViewController {
         ScheduleParser.currentShowWithCompletion { (show: Show?) in
             if show {
                 self.titleLabel.text = show!.title
-                self.hostLabel.text = show!.host
+                self.hostLabel.text = "with \(show!.host)"
             } else {
                 self.titleLabel.text = "No program info"
                 self.hostLabel.text = ""

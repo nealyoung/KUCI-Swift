@@ -7,7 +7,6 @@
         <!--Schedule View Controller-->
         <scene sceneID="HND-jy-ck5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="S2L-sv-tIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="QSO-mz-zh9" customClass="ScheduleViewController" customModule="KUCI" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="76" sectionHeaderHeight="10" sectionFooterHeight="10" id="2qw-uu-yay">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
@@ -65,11 +64,23 @@
                             <outlet property="delegate" destination="QSO-mz-zh9" id="GFN-HR-qYI"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="K4h-iX-obt"/>
+                    <navigationItem key="navigationItem" id="K4h-iX-obt">
+                        <barButtonItem key="leftBarButtonItem" title="Donate" id="LWb-mP-DGn">
+                            <connections>
+                                <action selector="donateButtonPressed" destination="QSO-mz-zh9" id="KJZ-eR-vhD"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Today" id="zsk-Pr-fOk">
+                            <connections>
+                                <action selector="todayButtonPressed" destination="QSO-mz-zh9" id="Msu-bG-uBE"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="2qw-uu-yay" id="2dT-KW-fyu"/>
                     </connections>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S2L-sv-tIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1101" y="431"/>
         </scene>

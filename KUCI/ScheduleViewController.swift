@@ -36,12 +36,6 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
         
         self.navigationItem.titleView = UIImageView(image: UIImage(named: "Logo"))
         
-        var donateButton = UIBarButtonItem(title: "Donate", style: .Plain, target: self, action: "donateButtonPressed")
-        navigationItem.leftBarButtonItem = donateButton
-        
-        var todayButton = UIBarButtonItem(title: "Today", style: .Plain, target: self, action: "todayButtonPressed")
-        navigationItem.rightBarButtonItem = todayButton
-        
         ScheduleParser.allShowsWithCompletion { (shows: Array<AnyObject>?) in
             self.schedule = shows as Array<Array<Show>>
             self.tableView.reloadData()
@@ -50,12 +44,12 @@ class ScheduleViewController: UIViewController, UITableViewDataSource, UITableVi
     
     // Actions
     
-    func donateButtonPressed() {
+    @IBAction func donateButtonPressed() {
         var donationURL = NSURL(string: donationURLString)
         UIApplication.sharedApplication().openURL(donationURL)
     }
     
-    func todayButtonPressed() {
+    @IBAction func todayButtonPressed() {
         var currentDay = NSCalendar.currentCalendar().components(.WeekdayCalendarUnit, fromDate: NSDate()).weekday
         
         // Set section to the appropriate section (Monday = 0, Sunday = 6)
