@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0E0095B6193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0095B5193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift */; };
 		0E0095BB1940261300FE334E /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0095BA1940261300FE334E /* StreamViewController.swift */; };
+		0E0095BD19403B9C00FE334E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0095BC19403B9C00FE334E /* AVFoundation.framework */; };
+		0E0095C019403D6300FE334E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0095BF19403D6300FE334E /* MediaPlayer.framework */; };
 		0EEA7DED193F8FDB00CAED5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA7DEC193F8FDB00CAED5D /* Images.xcassets */; };
 		0EEA7DF9193F8FDB00CAED5D /* KUCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7DF8193F8FDB00CAED5D /* KUCITests.swift */; };
 		0EEA7E06193F900000CAED5D /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E03193F900000CAED5D /* HTMLNode.m */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		0E0095B5193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		0E0095BA1940261300FE334E /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		0E0095BC19403B9C00FE334E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0E0095BF19403D6300FE334E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		0EEA7DE0193F8FDB00CAED5D /* KUCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KUCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEA7DE4193F8FDB00CAED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EEA7DEC193F8FDB00CAED5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0095C019403D6300FE334E /* MediaPlayer.framework in Frameworks */,
+				0E0095BD19403B9C00FE334E /* AVFoundation.framework in Frameworks */,
 				0EEA7E27193F91BC00CAED5D /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,12 +99,23 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		0E0095BE19403D4800FE334E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E0095BC19403B9C00FE334E /* AVFoundation.framework */,
+				0EEA7E26193F91BC00CAED5D /* libxml2.dylib */,
+				0E0095BF19403D6300FE334E /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0EEA7DD7193F8FDB00CAED5D = {
 			isa = PBXGroup;
 			children = (
 				0EEA7DE2193F8FDB00CAED5D /* KUCI */,
 				0EEA7DF5193F8FDB00CAED5D /* KUCITests */,
 				0EEA7DE1193F8FDB00CAED5D /* Products */,
+				0E0095BE19403D4800FE334E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				0EEA7E0E193F905800CAED5D /* Fonts */,
-				0EEA7E26193F91BC00CAED5D /* libxml2.dylib */,
 				0EEA7E0A193F901F00CAED5D /* KUCI-Bridging-Header.h */,
 				0EEA7DE4193F8FDB00CAED5D /* Info.plist */,
 			);
