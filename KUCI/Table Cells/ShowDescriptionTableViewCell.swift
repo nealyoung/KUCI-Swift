@@ -1,4 +1,4 @@
-.//
+//
 //  ShowDescriptionTableViewCell.swift
 //  KUCI
 //
