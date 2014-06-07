@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E0095B6193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0095B5193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift */; };
-		0E0095BB1940261300FE334E /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0095BA1940261300FE334E /* StreamViewController.swift */; };
 		0E0095BD19403B9C00FE334E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0095BC19403B9C00FE334E /* AVFoundation.framework */; };
 		0E0095C019403D6300FE334E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0095BF19403D6300FE334E /* MediaPlayer.framework */; };
+		0E4E8FD71942A46600EDDAF8 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FD41942A46600EDDAF8 /* HTMLNode.m */; };
+		0E4E8FD81942A46600EDDAF8 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FD61942A46600EDDAF8 /* HTMLParser.m */; };
+		0E4E8FDA1942A49500EDDAF8 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FD91942A49500EDDAF8 /* UIFont.swift */; };
+		0E4E8FDE1942A4D200EDDAF8 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FDB1942A4D200EDDAF8 /* ScheduleViewController.swift */; };
+		0E4E8FDF1942A4D200EDDAF8 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FDC1942A4D200EDDAF8 /* ShowViewController.swift */; };
+		0E4E8FE01942A4D200EDDAF8 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FDD1942A4D200EDDAF8 /* StreamViewController.swift */; };
+		0E4E8FE31942A4EF00EDDAF8 /* ShowDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FE11942A4EF00EDDAF8 /* ShowDescriptionTableViewCell.swift */; };
+		0E4E8FE41942A4EF00EDDAF8 /* ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FE21942A4EF00EDDAF8 /* ShowTableViewCell.swift */; };
+		0E4E8FE81942A56300EDDAF8 /* ScheduleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FE61942A56300EDDAF8 /* ScheduleParser.m */; };
+		0E4E8FE91942A56300EDDAF8 /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4E8FE71942A56300EDDAF8 /* Show.swift */; };
 		0EEA7DED193F8FDB00CAED5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA7DEC193F8FDB00CAED5D /* Images.xcassets */; };
 		0EEA7DF9193F8FDB00CAED5D /* KUCITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7DF8193F8FDB00CAED5D /* KUCITests.swift */; };
-		0EEA7E06193F900000CAED5D /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E03193F900000CAED5D /* HTMLNode.m */; };
-		0EEA7E07193F900000CAED5D /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E05193F900000CAED5D /* HTMLParser.m */; };
-		0EEA7E0D193F903400CAED5D /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E0C193F903400CAED5D /* ScheduleViewController.swift */; };
 		0EEA7E12193F905800CAED5D /* SourceSansPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA7E0F193F905800CAED5D /* SourceSansPro-Bold.otf */; };
 		0EEA7E13193F905800CAED5D /* SourceSansPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA7E10193F905800CAED5D /* SourceSansPro-Regular.otf */; };
 		0EEA7E14193F905800CAED5D /* SourceSansPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA7E11193F905800CAED5D /* SourceSansPro-Semibold.otf */; };
-		0EEA7E16193F906000CAED5D /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E15193F906000CAED5D /* UIFont.swift */; };
-		0EEA7E19193F908800CAED5D /* Show.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E18193F908800CAED5D /* Show.swift */; };
-		0EEA7E1D193F90B200CAED5D /* ScheduleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E1C193F90B200CAED5D /* ScheduleParser.m */; };
-		0EEA7E20193F90CA00CAED5D /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E1F193F90CA00CAED5D /* ShowViewController.swift */; };
-		0EEA7E22193F90D000CAED5D /* ShowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E21193F90D000CAED5D /* ShowTableViewCell.swift */; };
 		0EEA7E25193F90E700CAED5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEA7E24193F90E700CAED5D /* Main.storyboard */; };
 		0EEA7E27193F91BC00CAED5D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EEA7E26193F91BC00CAED5D /* libxml2.dylib */; };
 		0EEA7E29193F924E00CAED5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEA7E28193F924E00CAED5D /* AppDelegate.swift */; };
@@ -40,31 +40,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E0095B5193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDescriptionTableViewCell.swift; sourceTree = "<group>"; };
-		0E0095BA1940261300FE334E /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		0E0095BC19403B9C00FE334E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		0E0095BF19403D6300FE334E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0E4E8FD31942A46600EDDAF8 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		0E4E8FD41942A46600EDDAF8 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		0E4E8FD51942A46600EDDAF8 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		0E4E8FD61942A46600EDDAF8 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		0E4E8FD91942A49500EDDAF8 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIFont.swift; path = Extensions/UIFont.swift; sourceTree = "<group>"; };
+		0E4E8FDB1942A4D200EDDAF8 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "View Controllers/ScheduleViewController.swift"; sourceTree = "<group>"; };
+		0E4E8FDC1942A4D200EDDAF8 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowViewController.swift; path = "View Controllers/ShowViewController.swift"; sourceTree = "<group>"; };
+		0E4E8FDD1942A4D200EDDAF8 /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamViewController.swift; path = "View Controllers/StreamViewController.swift"; sourceTree = "<group>"; };
+		0E4E8FE11942A4EF00EDDAF8 /* ShowDescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowDescriptionTableViewCell.swift; path = "Table Cells/ShowDescriptionTableViewCell.swift"; sourceTree = "<group>"; };
+		0E4E8FE21942A4EF00EDDAF8 /* ShowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowTableViewCell.swift; path = "Table Cells/ShowTableViewCell.swift"; sourceTree = "<group>"; };
+		0E4E8FE51942A56300EDDAF8 /* ScheduleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleParser.h; path = Models/ScheduleParser.h; sourceTree = "<group>"; };
+		0E4E8FE61942A56300EDDAF8 /* ScheduleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleParser.m; path = Models/ScheduleParser.m; sourceTree = "<group>"; };
+		0E4E8FE71942A56300EDDAF8 /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Show.swift; path = Models/Show.swift; sourceTree = "<group>"; };
 		0EEA7DE0193F8FDB00CAED5D /* KUCI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KUCI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEA7DE4193F8FDB00CAED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EEA7DEC193F8FDB00CAED5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0EEA7DF2193F8FDB00CAED5D /* KUCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KUCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEA7DF7193F8FDB00CAED5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EEA7DF8193F8FDB00CAED5D /* KUCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUCITests.swift; sourceTree = "<group>"; };
-		0EEA7E02193F900000CAED5D /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
-		0EEA7E03193F900000CAED5D /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
-		0EEA7E04193F900000CAED5D /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
-		0EEA7E05193F900000CAED5D /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
 		0EEA7E0A193F901F00CAED5D /* KUCI-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KUCI-Bridging-Header.h"; sourceTree = "<group>"; };
-		0EEA7E0C193F903400CAED5D /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		0EEA7E0F193F905800CAED5D /* SourceSansPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Bold.otf"; sourceTree = "<group>"; };
 		0EEA7E10193F905800CAED5D /* SourceSansPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Regular.otf"; sourceTree = "<group>"; };
 		0EEA7E11193F905800CAED5D /* SourceSansPro-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceSansPro-Semibold.otf"; sourceTree = "<group>"; };
-		0EEA7E15193F906000CAED5D /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
-		0EEA7E18193F908800CAED5D /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
-		0EEA7E1B193F90B200CAED5D /* ScheduleParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleParser.h; sourceTree = "<group>"; };
-		0EEA7E1C193F90B200CAED5D /* ScheduleParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleParser.m; sourceTree = "<group>"; };
-		0EEA7E1F193F90CA00CAED5D /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
-		0EEA7E21193F90D000CAED5D /* ShowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTableViewCell.swift; sourceTree = "<group>"; };
 		0EEA7E24193F90E700CAED5D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0EEA7E26193F91BC00CAED5D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		0EEA7E28193F924E00CAED5D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +107,18 @@
 				0E0095BF19403D6300FE334E /* MediaPlayer.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E4E8FD21942A46600EDDAF8 /* HTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				0E4E8FD31942A46600EDDAF8 /* HTMLNode.h */,
+				0E4E8FD41942A46600EDDAF8 /* HTMLNode.m */,
+				0E4E8FD51942A46600EDDAF8 /* HTMLParser.h */,
+				0E4E8FD61942A46600EDDAF8 /* HTMLParser.m */,
+			);
+			name = HTMLParser;
+			path = Vendor/HTMLParser;
 			sourceTree = "<group>";
 		};
 		0EEA7DD7193F8FDB00CAED5D = {
@@ -171,21 +183,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0EEA7E08193F900300CAED5D /* HTMLParser */ = {
-			isa = PBXGroup;
-			children = (
-				0EEA7E02193F900000CAED5D /* HTMLNode.h */,
-				0EEA7E03193F900000CAED5D /* HTMLNode.m */,
-				0EEA7E04193F900000CAED5D /* HTMLParser.h */,
-				0EEA7E05193F900000CAED5D /* HTMLParser.m */,
-			);
-			name = HTMLParser;
-			sourceTree = "<group>";
-		};
 		0EEA7E09193F900800CAED5D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				0EEA7E08193F900300CAED5D /* HTMLParser */,
+				0E4E8FD21942A46600EDDAF8 /* HTMLParser */,
 			);
 			name = Vendor;
 			sourceTree = "<group>";
@@ -203,7 +204,7 @@
 		0EEA7E17193F906200CAED5D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				0EEA7E15193F906000CAED5D /* UIFont.swift */,
+				0E4E8FD91942A49500EDDAF8 /* UIFont.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -211,9 +212,9 @@
 		0EEA7E1A193F90AA00CAED5D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0EEA7E18193F908800CAED5D /* Show.swift */,
-				0EEA7E1B193F90B200CAED5D /* ScheduleParser.h */,
-				0EEA7E1C193F90B200CAED5D /* ScheduleParser.m */,
+				0E4E8FE51942A56300EDDAF8 /* ScheduleParser.h */,
+				0E4E8FE61942A56300EDDAF8 /* ScheduleParser.m */,
+				0E4E8FE71942A56300EDDAF8 /* Show.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -221,9 +222,9 @@
 		0EEA7E1E193F90BC00CAED5D /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0EEA7E0C193F903400CAED5D /* ScheduleViewController.swift */,
-				0EEA7E1F193F90CA00CAED5D /* ShowViewController.swift */,
-				0E0095BA1940261300FE334E /* StreamViewController.swift */,
+				0E4E8FDB1942A4D200EDDAF8 /* ScheduleViewController.swift */,
+				0E4E8FDC1942A4D200EDDAF8 /* ShowViewController.swift */,
+				0E4E8FDD1942A4D200EDDAF8 /* StreamViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -231,8 +232,8 @@
 		0EEA7E23193F90D300CAED5D /* Table Cells */ = {
 			isa = PBXGroup;
 			children = (
-				0EEA7E21193F90D000CAED5D /* ShowTableViewCell.swift */,
-				0E0095B5193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift */,
+				0E4E8FE11942A4EF00EDDAF8 /* ShowDescriptionTableViewCell.swift */,
+				0E4E8FE21942A4EF00EDDAF8 /* ShowTableViewCell.swift */,
 			);
 			name = "Table Cells";
 			sourceTree = "<group>";
@@ -339,17 +340,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EEA7E16193F906000CAED5D /* UIFont.swift in Sources */,
-				0EEA7E20193F90CA00CAED5D /* ShowViewController.swift in Sources */,
-				0E0095BB1940261300FE334E /* StreamViewController.swift in Sources */,
-				0EEA7E1D193F90B200CAED5D /* ScheduleParser.m in Sources */,
+				0E4E8FD71942A46600EDDAF8 /* HTMLNode.m in Sources */,
+				0E4E8FE81942A56300EDDAF8 /* ScheduleParser.m in Sources */,
+				0E4E8FD81942A46600EDDAF8 /* HTMLParser.m in Sources */,
+				0E4E8FDE1942A4D200EDDAF8 /* ScheduleViewController.swift in Sources */,
+				0E4E8FE41942A4EF00EDDAF8 /* ShowTableViewCell.swift in Sources */,
+				0E4E8FE01942A4D200EDDAF8 /* StreamViewController.swift in Sources */,
+				0E4E8FE31942A4EF00EDDAF8 /* ShowDescriptionTableViewCell.swift in Sources */,
 				0EEA7E29193F924E00CAED5D /* AppDelegate.swift in Sources */,
-				0EEA7E0D193F903400CAED5D /* ScheduleViewController.swift in Sources */,
-				0EEA7E06193F900000CAED5D /* HTMLNode.m in Sources */,
-				0EEA7E19193F908800CAED5D /* Show.swift in Sources */,
-				0E0095B6193FF3ED00FE334E /* ShowDescriptionTableViewCell.swift in Sources */,
-				0EEA7E22193F90D000CAED5D /* ShowTableViewCell.swift in Sources */,
-				0EEA7E07193F900000CAED5D /* HTMLParser.m in Sources */,
+				0E4E8FDA1942A49500EDDAF8 /* UIFont.swift in Sources */,
+				0E4E8FE91942A56300EDDAF8 /* Show.swift in Sources */,
+				0E4E8FDF1942A4D200EDDAF8 /* ShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
