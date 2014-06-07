@@ -1,6 +1,6 @@
 #KUCI
 
-A Swift port of the [KUCI application I developed]((https://github.com/nealyoung/KUCI).
+A Swift port of the KUCI radio streaming application I developed ((https://github.com/nealyoung/KUCI).
 
 ![Screenshot](https://github.com/nealyoung/KUCI-Swift/raw/master/screenshot.png)
 
